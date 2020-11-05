@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Contact us</title>
+</head>
+<body>
+    <section class="contact-form">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="company-address">
+                    <div class="address-group">
+                        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                        <h2 class="text-gray md-heading">Location</h2>
+                        <p>F-125 Kargil Street Gujarat india CA 39584</p>
+                    </div>
+                    
+                    <div class="address-group">
+                        <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                        <h2 class="text-gray md-heading">Email</h2>
+                        <p>suport@oldbookstall.com</p>
+                    </div>
+                    
+                    <div class="address-group">
+                        <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                        <h2 class="text-gray md-heading">Call</h2>
+                        <p>+91 1010101010</p>
+                    </div>
+                    <img src="{%static 'img/BOOK.jpg'%}" alt="book">
+                </div>
+                
+                <form action="" class="form">
+                    <h1 class="lg-heading text-black">Contact Us</h1>
+                    <p class="text-gray">Let us know questions, suggestions and concerns by filling out contact form below.</p>
+                    <div class="form-group">
+                        <div>
+                            <label for="username">Username</label>
+                            <input type="text" name="" value="" placeholder="Enter Your Name" required>
+                        </div>
+                    
+                        <div class="form-group">
+                             <label for="phone">Phone</label>
+                             <input type="text" name="" value="" placeholder="Enter Your Phone Number" required>
+                         </div>
+                    
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="" value="" placeholder="Enter Your Email" required>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="" id="message" placeholder="Enter Your Message"></textarea>
+                        </div>
+                            <button type="submit" class="form-btn">Submit</button>
+                    
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
